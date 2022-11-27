@@ -1,5 +1,5 @@
 let x = ""
-console.log(x = "Change")
+// console.log(x = "Change")
 
 let asdf: string[] = ['kim', 'gml', 'wo']
 // console.log(asdf)
@@ -7,7 +7,7 @@ let asdf: string[] = ['kim', 'gml', 'wo']
 let a: number[] = [1, 2];
 let b: string[] = ["il", "1"]
 let c: boolean[] = [true]
-console.log(a, b, c)
+// console.log(a, b, c)
 
 const playerX: {
     name: string,
@@ -40,5 +40,5 @@ export function playerMaker(name: string): Player {
 }
 
 export const playerMaker2 = (name: string , age:number): Player => ({ name , age})
-const P1 = playerMaker2("HJ",25)
-// console.log(P1)
+const P1 = playerMaker2("sadfasdsdafasdffHJ",25)
+console.log(P1)
