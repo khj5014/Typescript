@@ -39,6 +39,7 @@ export function playerMaker(name: string): Player {
     }
 }
 
+//람다
 export const playerMaker2 = (name: string , age:number): Player => ({ name , age})
-const P1 = playerMaker2("sadfasdsdafasdffHJ",25)
-console.log(P1)
+const P1 = playerMaker2("희재킴",25)
+// console.log(P1)
